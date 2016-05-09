@@ -9,6 +9,9 @@ into your own Java programs. JSch is licensed under BSD style license.
 
 jsch-sspi is a wraper that implements SSO GSSAPI SSPI on windows using native microsoft Win32 kerberos support  secure32.dll by JNA native integration
 
+it is best that the java used has the JCE policy package installde
+or use bouncycastle instead of Java's built in JCE provider
+http://www.bouncycastle.org/wiki/display/JA1/Provider+Installation
 
 
 
